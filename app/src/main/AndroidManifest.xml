@@ -18,8 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MasodikActivity"></activity>
-        <activity android:name=".Main2Activity"></activity>
+
+        <activity   android:name=".MasodikActivity"
+                    android:label="MasodikActivity">
+        </activity>
+
+        <activity   android:name=".Main2Activity"
+                    android:label="Main2Activity">
+        </activity>
+
+
     </application>
 
 </manifest>
